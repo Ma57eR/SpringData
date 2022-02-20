@@ -28,21 +28,29 @@ public class Main {
         switch (exNum) {
             case 2:
                 exerciseTwo();
+                break;
             case 3:
                 exerciseThree();
+                break;
             case 4:
                 exerciseFour();
+                break;
             case 5:
                 exerciseFive();
+                break;
             case 6:
                 exerciseSix();
                 //Шеста задача няма решение, тъй като не е задължителна
+                break;
             case 7:
                 exerciseSeven();
+                break;
             case 8:
                 exerciseEight();
+                break;
             case 9:
                 exerciseNine();
+                break;
         }
 
 
@@ -228,7 +236,7 @@ public class Main {
 
     }
 
-    private static void exerciseSix() throws SQLException {
+    private static void exerciseSix() {
         //Шеста задача няма решение, тъй като не е задължителна
     }
 
@@ -254,7 +262,7 @@ public class Main {
             }
             minionsOrder.remove(minionsOrder.size() - 1);
         }
-        System.out.println();
+        System.out.println(String.join("\n", minionsNewOrder));
     }
 
     private static void exerciseEight() throws SQLException {
